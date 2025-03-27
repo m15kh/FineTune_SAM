@@ -10,7 +10,7 @@ This repository provides tools and scripts for fine-tuning the Segment Anything 
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the repository: 
    ```bash
    git clone https://github.com/your-username/fine-tune-sam.git
    cd fine-tune-sam
