@@ -27,10 +27,6 @@ This repository contains two fine-tuned versions of SAM:
    - Update the configuration file with the dataset path.
 
 
-## Model Checkpoints
-- SAM1: `/checkpoints/mito_model_checkpoint.pth`
-- SAM2: Coming soon
-
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
