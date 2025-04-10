@@ -26,33 +26,10 @@ This repository contains two fine-tuned versions of SAM:
    - Ensure your dataset is in the required format.
    - Update the configuration file with the dataset path.
 
-## Usage
-### Training
-Run the training pipeline:
-```bash
-python src/pipeline.py --train --config config.yaml --model sam1
-```
-
-To continue training SAM2 (work in progress):
-```bash
-python src/pipeline.py --train --config config.yaml --model sam2
-```
-
-### Inference
-Run inference using the fine-tuned model:
-```bash
-python src/inference.py --model sam1 --input_path /path/to/image --output_dir /path/to/output
-```
-
-### Configuration
-Modify the `config.yaml` file to customize training parameters such as learning rate, batch size, and number of epochs.
 
 ## Model Checkpoints
 - SAM1: `/checkpoints/mito_model_checkpoint.pth`
 - SAM2: Coming soon
-
-## Examples
-Example usage of the fine-tuned models can be found in the `examples` directory.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
