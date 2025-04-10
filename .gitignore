@@ -1,0 +1,5 @@
+date/*
+*.tif
+checkpoints/
+__pycache__/
+.vscode/*
