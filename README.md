@@ -1,4 +1,4 @@
-# Fine-Tune SAM
+# Fine Tune SAM
 This repository provides tools and scripts for fine-tuning the Segment Anything Model (SAM). SAM is a state-of-the-art model for image segmentation tasks.
 
 ## Models
